@@ -1,0 +1,104 @@
+body{
+    position: relative;
+}
+
+
+body{
+    background-image: url('../image/background-image.jpg');
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.container{
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* width: 700px; */
+}
+
+.styled-table {
+    background-color: white;
+
+    margin-right: 500px;
+    width:900px;
+    /*height:200px; */
+    border-collapse: collapse;
+    font-family: "Montserrat",sans-serif;
+    margin-top: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    height:20px;
+}
+
+
+.styled-table th,
+.styled-table td {
+    padding: 10px 10px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr td {
+    font-family: "Montserrat","monospace";
+    font-weight: 500;
+    font-size:15px;
+    text-transform: capitalize;
+}
+
+
+.add-item{
+    border:none;
+    background-color:green;
+    width:80px;
+    height:50px;
+    border-radius: 3px;
+    float: right;
+    margin:0px,20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+ .add-item a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size:30px;
+    cursor:pointer;
+
+}
+
+.modifications{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.modify-item{
+    border:none;
+    /* background-color:rgb(249, 247, 246); */
+    width:80px;
+    height:50px;
+    border-radius: 3px;
+    float: right;
+    margin-top: 0px;
+
+}
